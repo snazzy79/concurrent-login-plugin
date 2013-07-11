@@ -50,5 +50,10 @@
       </plugin>
     </plugins>
   </build>
-  
+
+   <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/concurrent-login-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/concurrent-login-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/concurrent-login-plugin</url>
+  </scm>
 </project>
