@@ -20,10 +20,10 @@
     </developer>
   </developers>
 
-   <scm>
+  <scm>
     <connection>scm:git:git://github.com/jenkinsci/concurrent-login-plugin.git</connection>
-    <developerConnection>scm:git:git://git@github.com/jenkinsci/concurrent-login-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/concurrent-login-plugin</url>
+    <developerConnection>scm:git:git@github.com:jenkinsci/concurrent-login-plugin.git</developerConnection>
+    <url>http://github.com/jenkinsci/concurrent-login-plugin</url>
   </scm>
 
   <distributionManagement>
