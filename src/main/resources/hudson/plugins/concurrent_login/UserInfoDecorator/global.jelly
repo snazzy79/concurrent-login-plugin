@@ -1,0 +1,10 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <f:section title="Intercept Concurrent Login">
+    <f:entry title="Activate/Deactivate" 
+      field="useInterceptConcurrentLogin"
+      description="Check if you intercept concurrent login"
+      help="/plugin/concurrent-login-plugin/help-globalConfig.html">
+      <f:checkbox />
+    </f:entry>
+  </f:section>
+</j:jelly>

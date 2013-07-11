@@ -1,0 +1,13 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <j:set var="getSession" value="${request.getSession()}" />
+    <j:set var="UserName" value="${it.getName()}" />
+    <j:set var="already" value="${it.getAlreadyLoginCheck()}" />
+
+    <j:if test="${it.getAlreadyLoginCheck() != null}">
+        <script type="text/javascript">alert("[${it.getAlreadyLoginCheck()}] is already being used. Please try again later!");</script>
+    </j:if>
+
+    <j:set var="authName" value="${it.getName()}" />
+    ${it.requestInfo(request, response, authName)}
+    <j:out value="${it.alreadyLoginCheck}" />
+</j:jelly>
